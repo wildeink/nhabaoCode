@@ -79,10 +79,9 @@ export default function Page({ emojiToSvg }: CommonBaseProps) {
       <div className="text-center">
         <a
           href="https://github.com/chibicode/hello"
-          className="hover-border-styles hv:hover:border-yellow-400 inline-flex text-xl py-2"
+          className="hover-border-styles mono-styles hv:hover:border-yellow-400 inline-block py-1"
         >
-          <Emoji className="mx-1">🐙</Emoji>
-          <Emoji className="mx-1">🐱</Emoji>
+          GitHub
         </a>
       </div>
     </Layout>
