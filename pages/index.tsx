@@ -24,7 +24,7 @@ export default function Page({ emojiToSvg }: CommonBaseProps) {
       <img
         src="/images/chibicode.jpg"
         alt="Shu Uesugi"
-        className="rounded-full w-32 block mx-auto shadow-soft mb-4"
+        className="rounded-full w-32 h-32 sblock mx-auto shadow-soft mb-4"
       />
       <h1 className="text-xl leading-tight tracking-tighter font-bold text-center">
         <a
