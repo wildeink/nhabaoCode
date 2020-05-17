@@ -22,6 +22,8 @@ module.exports = {
           '"Segoe UI Symbol"',
           '"Noto Color Emoji"',
         ],
+        mono:
+          '"Iosevka Slab Web", "Menlo", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono","Bitstream Vera Sans Mono", "Courier New", monospace',
       },
       colors: {
         gray: {
@@ -35,6 +37,12 @@ module.exports = {
           '800': '#424242',
           '900': '#212121',
         },
+      },
+      letterSpacing: {
+        'mono-wide': '0.3em',
+      },
+      fontSize: {
+        'mono-xs': '0.8rem',
       },
       boxShadow: {
         soft: '0 10px 30px rgba(0, 0, 0, 0.12)',

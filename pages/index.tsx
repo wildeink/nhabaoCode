@@ -24,12 +24,12 @@ export default function Page({ emojiToSvg }: CommonBaseProps) {
       <img
         src="/images/chibicode.jpg"
         alt="Shu Uesugi"
-        className="rounded-full w-32 h-32 sblock mx-auto shadow-soft mb-4"
+        className="rounded-full w-32 h-32 sblock mx-auto mb-4"
       />
-      <h1 className="text-xl leading-tight tracking-tighter font-bold text-center">
+      <h1 className="text-center">
         <a
           href="https://twitter.com/chibicode"
-          className="hover-border-styles hv:hover:border-yellow-400 inline-block"
+          className="hover-border-styles mono-styles hv:hover:border-yellow-400 inline-block py-1"
         >
           @chibicode
         </a>
@@ -83,7 +83,7 @@ export default function Page({ emojiToSvg }: CommonBaseProps) {
       <div className="text-center">
         <a
           href="https://github.com/chibicode/hello"
-          className="hover-border-styles hv:hover:border-yellow-400 inline-flex text-xl py-1"
+          className="hover-border-styles hv:hover:border-yellow-400 inline-flex text-xl py-2"
         >
           <Emoji className="mx-1">🐙</Emoji>
           <Emoji className="mx-1">🐱</Emoji>

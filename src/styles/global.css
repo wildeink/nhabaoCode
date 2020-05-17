@@ -14,6 +14,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.mono-styles {
+  @apply uppercase tracking-mono-wide font-mono text-mono-xs;
+}
+
 .hover-border-styles {
   @apply transition-colors duration-300 border-transparent border-b-4;
 }
