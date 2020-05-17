@@ -8,9 +8,10 @@ type Props = {
   children: string
   label?: string
   className?: string
+  translateY?: number
 }
 
-function Emoji({ label, className, children }: Props) {
+function Emoji({ label, className, children, translateY }: Props) {
   const svg = useEmojiToSvg(children)
   useEmojiPrecompute(children)
   return svg ? (
@@ -19,6 +20,8 @@ function Emoji({ label, className, children }: Props) {
       aria-label={label || 'Emoji'}
       className={cn(styles.emoji, 'inline-block', className)}
       dangerouslySetInnerHTML={{ __html: svg }}
+      // @ts-ignore
+      style={{ '--translateY': `${translateY || 0}em` }}
     />
   ) : (
     <></>

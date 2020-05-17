@@ -1,5 +1,6 @@
 .emoji {
   height: 1em;
+  transform: translateY(var(--translateY));
 }
 
 .emoji svg {

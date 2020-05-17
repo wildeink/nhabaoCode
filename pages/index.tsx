@@ -43,13 +43,13 @@ export default function Page({ emojiToSvg }: CommonBaseProps) {
             English Page
           </h2>
           <span className="text-4xl mb-4">
-            <Emoji className="mx-2" label="Shoe">
+            <Emoji className="mx-2" label="Shoe" translateY={-0.05}>
               👞
             </Emoji>
             <Emoji className="mx-2" label="USA">
               🇺🇸
             </Emoji>
-            <Emoji className="mx-2" label="Whiskey">
+            <Emoji className="mx-2" label="Whiskey" translateY={-0.08}>
               🥃
             </Emoji>
           </span>
