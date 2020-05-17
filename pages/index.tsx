@@ -53,9 +53,7 @@ export default function Page({ emojiToSvg }: CommonBaseProps) {
               🥃
             </Emoji>
           </span>
-          <h3 className="text-lg font-bold leading-tight tracking-tight text-center">
-            Shu Uesugi
-          </h3>
+          <h3 className="text-lg text-center">Shu Uesugi</h3>
         </a>
         <a
           href="https://jp.chibicode.com"
@@ -75,9 +73,7 @@ export default function Page({ emojiToSvg }: CommonBaseProps) {
               🙇🏻
             </Emoji>
           </span>
-          <h3 className="text-lg font-bold leading-tight tracking-tight text-center">
-            上杉周作
-          </h3>
+          <h3 className="text-lg text-center">上杉周作</h3>
         </a>
       </div>
       <div className="text-center">

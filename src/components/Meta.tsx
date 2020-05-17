@@ -55,17 +55,17 @@ export default function Meta() {
         type="font/woff2"
         crossOrigin="anonymous"
       />
-      {/* Prefetch */}
       <link
         rel="prefetch"
-        href="https://chibicode.com/inter/Inter-Italic.woff2?3.13"
+        href="https://chibicode.com/inter/Inter-Regular.woff2?3.13"
         as="font"
         type="font/woff2"
         crossOrigin="anonymous"
       />
+      {/* Prefetch */}
       <link
         rel="prefetch"
-        href="https://chibicode.com/inter/Inter-Regular.woff2?3.13"
+        href="https://chibicode.com/inter/Inter-Italic.woff2?3.13"
         as="font"
         type="font/woff2"
         crossOrigin="anonymous"
