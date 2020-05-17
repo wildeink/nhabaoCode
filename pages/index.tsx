@@ -29,14 +29,19 @@ export default function Page({ emojiToSvg }: CommonBaseProps) {
       <h1 className="text-xl leading-tight tracking-tighter font-bold text-center">
         <a
           href="https://twitter.com/chibicode"
+          target="_blank"
+          rel="noopener noreferrer"
           className="hover-border-styles hv:hover:border-yellow-400 inline-block"
         >
           @chibicode
         </a>
       </h1>
       <div className="md:flex pb-8">
+        {/* eslint-disable react/jsx-no-target-blank */}
         <a
           href="https://chibicode.com"
+          rel="noopener"
+          target="_blank"
           className="flex w-full md:mr-8 shadow-soft hv:hover:shadow-large transition-shadow duration-300 p-8 flex-col items-center my-16"
         >
           <h2 className="text-2xl leading-tight tracking-tighter font-bold text-center mb-6">
@@ -57,8 +62,11 @@ export default function Page({ emojiToSvg }: CommonBaseProps) {
             Shu Uesugi
           </h3>
         </a>
+        {/* eslint-disable react/jsx-no-target-blank */}
         <a
           href="https://jp.chibicode.com"
+          rel="noopener"
+          target="_blank"
           className="flex w-full md:ml-8 shadow-soft hv:hover:shadow-large transition-shadow duration-300 p-8 flex-col items-center my-16"
         >
           <h2 className="text-2xl leading-tight tracking-tighter font-bold text-center mb-6">
@@ -83,6 +91,8 @@ export default function Page({ emojiToSvg }: CommonBaseProps) {
       <div className="text-center">
         <a
           href="https://github.com/chibicode/hello"
+          target="_blank"
+          rel="noopener noreferrer"
           className="hover-border-styles hv:hover:border-yellow-400 inline-flex text-xl py-1"
         >
           <Emoji className="mx-1">🐙</Emoji>
