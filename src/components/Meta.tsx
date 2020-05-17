@@ -40,10 +40,43 @@ export default function Meta() {
       <meta name="msapplication-TileColor" content="#f6e05e" />
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       <meta name="theme-color" content="#ffffff" />
+      {/* Preload */}
       <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
-        rel="stylesheet"
-      ></link>
+        rel="preload"
+        href="https://chibicode.com/inter/Inter-Bold.woff2?3.13"
+        as="font"
+        type="font/woff2"
+        crossOrigin="anonymous"
+      />
+      {/* Prefetch */}
+      <link
+        rel="prefetch"
+        href="https://chibicode.com/inter/Inter-Italic.woff2?3.13"
+        as="font"
+        type="font/woff2"
+        crossOrigin="anonymous"
+      />
+      <link
+        rel="prefetch"
+        href="https://chibicode.com/inter/Inter-Regular.woff2?3.13"
+        as="font"
+        type="font/woff2"
+        crossOrigin="anonymous"
+      />
+      <link
+        rel="prefetch"
+        href="https://chibicode.com/iosevka/woff2/iosevka-slab-regular.woff2"
+        as="font"
+        type="font/woff2"
+        crossOrigin="anonymous"
+      />
+      <link
+        rel="prefetch"
+        href="https://chibicode.com/iosevka/woff2/iosevka-slab-bold.woff2"
+        as="font"
+        type="font/woff2"
+        crossOrigin="anonymous"
+      />
     </Head>
   )
 }
