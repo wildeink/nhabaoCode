@@ -5,9 +5,8 @@ import { SITE_TITLE } from 'src/lib/constants'
 export default function Meta() {
   return (
     <Head>
-      <meta property="og:type" content="article" />
       <meta property="og:locale" content="en_US" />
-      <meta property="og:type" content={'website'} />
+      <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@chibicode" />
       <meta name="twitter:creator" content="@chibicode" />
